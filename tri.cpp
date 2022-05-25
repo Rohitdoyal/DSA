@@ -64,7 +64,6 @@ bool search(struct trinode *root,string h){
 
 bool searchprefix(struct trinode *root,string s){
     struct trinode* temp= root;
-
     for(int i =0; i<s.size(); i++){
         int index= s[i]-'a';
         if(temp->child[index]!=NULL){
