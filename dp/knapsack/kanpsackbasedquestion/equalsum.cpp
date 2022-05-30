@@ -22,7 +22,7 @@ int main(){
         //subsetsum of suma nd given array ;
 
 
-    }
+    
 
 
 

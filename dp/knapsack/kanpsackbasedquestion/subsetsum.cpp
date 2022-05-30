@@ -28,7 +28,7 @@ int main(){
                 t[i][j]= t[i-1][j]|| (t[i-1][j-arr[i]]);
             }
         }
-    }
+    } 
     if(t[n][sum]==true){
         cout<<"Yes there is subset";
     }
